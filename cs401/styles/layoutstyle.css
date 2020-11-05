@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E3E2;
+
+    display: grid;
+
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 50px 1fr 1fr 1fr 1fr;
+
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.formcontainer {
+    width: 100vw;
+    height: 100vh;
+    background-color: #E5E3E2;
+
+    display: grid;
+
+    grid-template-columns: 25% 1fr 1fr 1fr 1fr;
+    grid-template-rows: 75px 50px 1fr 1fr 1fr 1fr;
+
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    margin: 0;
+    
+
+}
+
+.pagetitle {
+    background-color: #F5D4CB;
+    border-radius: 25px;
+    padding: 7px;
+
+    font-size: 50px;
+    font-weight: bold;
+
+    grid-column-start: 2;
+    grid-column-end: 6;
+
+}
+
+.recenter{
+
+    position: relative;
+    left: 58px;
+}
+
+.cornerbuttons{
+
+    position: relative;
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+    padding: 3px;
+    width: 45px;
+    
+    
+}
+
+.recenteredit{
+
+    position: relative;
+    left: 28px;
+}
+
+.cornerbutton{
+
+    position: relative;
+    float: right;
+    margin-top: 18px;
+    margin-right: 15px;
+    padding: 3px;
+    width: 45px;
+    
+    
+}
+
+.navigation {
+    background-color: #CCEDE3;
+    border-radius: 25px;
+    padding: 15px;
+
+    grid-column-start: 1;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+
+#logo {
+    padding-top: 5%;
+    max-width: 50%;
+}
+
+#logout {
+    padding-top: 100;
+}
+
+#navlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    padding-bottom: 20%;
+    padding-top: 25%;
+
+}
+
+.naverrors{
+    background-color:  #8BD6BD;
+    border-radius: 25px;
+    margin-top: 10px;
+    padding: 4px;
+    font-size: 15px;
+
+}
+
+.location {
+    background-color:  #8BD6BD;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#footer {
+    font-size: 12px;
+}
