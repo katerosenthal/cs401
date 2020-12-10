@@ -1,0 +1,23 @@
+
+.profile {
+
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+
+    
+}
+
+#profilepic {
+    margin: 0 auto;
+    max-width: 50%;
+}
+
+.header{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 80px;
+    font-weight: normal;
+    
+}

@@ -1,0 +1,51 @@
+body {
+    background-color: #E5E3E2;
+    text-align:center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 19px;
+  }
+
+  .header{
+    font-size: 45px;
+  }
+
+  #mainlogo {
+    max-width: 40%;
+  }
+
+  #outsideborder {
+    background-color: #F5D4CB;
+    border-radius: 25px;
+    width: 36%;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 1%;
+
+  }
+
+  #insideborder {
+    background-color: #CCEDE3;
+    border-radius: 25px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+    margin-top: 1%;
+  }
+
+  .alignleft {
+    text-align: left;
+  }
+
+  .margin4px{
+    margin-left: 4px;
+  }
+
+  .errors{
+    background-color: #CCEDE3;
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 4px;
+    position: center;
+    width: 36%
+  }

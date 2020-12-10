@@ -1,0 +1,16 @@
+.nobullets{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    padding-top: 5%;
+}
+
+.scoot8px{
+    position: relative;
+    left: 8px;
+}
+
+.textbox90{
+    width: 90%;
+}
